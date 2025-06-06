@@ -58,7 +58,11 @@ const Navbar: React.FC = () => {
               placeholder="Search"
               className="flex-1 p-2 rounded-full focus:outline-none text-foreground"
             />
-            <button className="ml-3 bg-primary text-foreground rounded-full p-2">
+            <button
+              className={`ml-3 ${
+                scrolled ? "bg-background" : "bg-primary"
+              } text-foreground rounded-full p-2`}
+            >
               <ArrowRight />
             </button>
           </div>

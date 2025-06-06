@@ -7,7 +7,7 @@ const SplashScreen = () => {
   React.useEffect(() => {
     const interval = setInterval(() => {
       setProgress((prev) => (prev >= 100 ? 0 : prev + 10)); // Reset ke 0 jika mencapai 100
-    }, 20);
+    }, 100);
     return () => clearInterval(interval);
   }, []);
 
