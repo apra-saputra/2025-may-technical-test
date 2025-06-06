@@ -10,8 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@emotion/react": "^11.14.0",
-    "@mdx-js/react": "^3.1.0",
     "@radix-ui/react-alert-dialog": "^1.1.14",
     "@radix-ui/react-dropdown-menu": "^2.1.15",
     "@radix-ui/react-progress": "^1.1.7",
@@ -19,13 +17,9 @@
     "@radix-ui/react-slot": "^1.2.3",
     "@tailwindcss/vite": "^4.1.8",
     "@tanstack/react-query": "^5.80.6",
-    "@ttoss/components": "^2.2.17",
-    "@ttoss/react-hooks": "^2.0.11",
-    "@ttoss/ui": "^5.6.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.513.0",
-    "markdown-to-jsx": "^7.7.6",
     "marked": "^15.0.12",
     "next-themes": "^0.4.6",
     "react": "^19.1.0",
