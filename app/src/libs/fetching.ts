@@ -7,7 +7,7 @@ export const fetching = async <T>(url: string): Promise<T> => {
   try {
     const raw = await fetch(path, {
       method: "GET",
-      headers: { "x-api-key": apiKey },
+      headers: { "x_api_key": apiKey },
     });
     if (!raw.ok) throw new Error("fetching failed");
     const response = await raw.json();
